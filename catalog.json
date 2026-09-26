@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    {
+      "id": "dsh-plugin-npm-run-shell",
+      "name": "NPM Scripts Launcher",
+      "author": "sozercaniekosmosa",
+      "version": "1.0.0",
+      "npm": "dsh-plugin-npm-run-shell",
+      "description": {
+        "zh": "DSH 的 NPM 脚本启动器，支持自动检测工作区并在独立终端窗口中运行。",
+        "en": "NPM Scripts Launcher for DSH with automatic workspace detection and interactive terminal window.",
+        "ru": "Запуск NPM-скриптов в DSH с автоопределением воркспейсов и выводом в отдельное окно терминала."
+      }
+    }
+  ]
+}
