@@ -93,3 +93,4 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.dsh\profiles\web\node_m
 Если плагин не установлен постоянно, его всегда можно запустить на лету через вызовы Cordis Tool:
 - Передайте содержимое `client.js` и `host.js` в инструмент `cordis_define`.
 - Запустите полученный пакет через `cordis_run`.
+
