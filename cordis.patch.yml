@@ -1,0 +1,4 @@
+# dsh bundle patch: activates dsh-plugin-npm-run-shell in a DSH profile
+- insert:
+    - id: dsh-plugin-npm-run-shell
+      name: 'dsh-plugin-npm-run-shell'

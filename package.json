@@ -1,0 +1,36 @@
+{
+  "name": "dsh-plugin-npm-run-shell",
+  "version": "1.0.0",
+  "description": "NPM Scripts Launcher for DeepSeek Harness (DSH) Web GUI with auto workspace detection and live terminal",
+  "type": "module",
+  "main": "host.js",
+  "files": [
+    "host.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "package.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "entry": "client.js",
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "cordis-plugin",
+    "npm",
+    "scripts",
+    "terminal"
+  ],
+  "author": "",
+  "license": "MIT"
+}
